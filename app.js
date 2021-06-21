@@ -50,8 +50,9 @@ function checkOrDelete(e) {
 	// Удалить запись
 	if(item.classList[0] == 'deleteBtn'){
 		let todo = item.parentElement;
-		todo.remove();
         localStorage.removeItem('todos', list.innerHTML)
+		todo.remove();
+        localStorage.setItem('todos', list.innerHTML);
 	}
 }
 
