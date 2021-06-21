@@ -12,20 +12,6 @@ input.addEventListener('keyup', (e) =>{
 list.addEventListener('click', checkOrDelete);
 
 // Добавить новую запись
-// function addToDo(){
-//     let todo = document.createElement('li');
-//     let deleteBtn = document.createElement('button');
-
-//     deleteBtn.innerHTML = '<img class="icon" src="svg/trash_bin.svg">';
-//     deleteBtn.classList = 'deleteBtn';
-
-//     todo.textContent = input.value;
-//     todo.classList = 'todoItem';
-
-//     list.appendChild(todo).append(deleteBtn);
-//     input.value = '';
-// }
-
 function addToDo(){
     let todoDiv = document.createElement('div');
     let todo = document.createElement('li');
