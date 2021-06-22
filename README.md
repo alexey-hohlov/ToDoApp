@@ -14,4 +14,4 @@
 + Клик по значку корзины удалит запись;
 + При закрытии браузера, не удаленные записи сохраняются, так же сохраняется их статус.
 
-![Vanilla JavaScript ToDo List](https://user-images.githubusercontent.com/79412122/122811415-a5306000-d2fa-11eb-83ec-c1f90949ecec.png)
+![Vanilla JavaScript ToDo List](https://user-images.githubusercontent.com/79412122/122880152-e4df6200-d363-11eb-920d-f062d2b8f3b2.png)
